@@ -4,3 +4,4 @@ Rencana :
 - Mencatat Stok Opname
 - Mengelola Stok Barang
 - Membuat Laporan
+- Coba branch

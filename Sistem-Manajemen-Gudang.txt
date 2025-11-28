@@ -1,3 +1,5 @@
+Rencana :
+
 - Mengelola Barang
 - Mencatat Stok Opname
 - Mengelola Stok Barang

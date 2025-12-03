@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Neon — Interactive Profiles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="left-header">
+      <h2>Profile Team</h2>
+    </div>
+    <div class="right-header">
+      <a href="#" class="admin-btn">Admin</a>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="headline">UNIQUE COLLECTION OF TEAM NEON</h2>
+    <p class="subtext">Klik salah satu profil untuk melihat detail</p>
+
+    <div class="carousel-wrapper">
+      <button class="arrow left" id="prevBtn">‹</button>
+
+      <div class="carousel">
+        <div class="card" data-link="http://localhost/UASProfile/profiles/citra.php">
+          <img src="assets/citra.jpg" class="avatar">
+          <h3>Citra</h3>
+        </div>
+
+        <div class="card" data-link="http://localhost/UASProfile/profiles/verynna.php">
+          <img src="assets/verynna.jpg" class="avatar">
+          <h3>Verynna</h3>
+        </div>
+
+        <div class="card" data-link="http://localhost/UASProfile/profiles/rissa.php">
+          <img src="assets/rissa.jpg" class="avatar">
+          <h3>Rissa</h3>
+        </div>
+      </div>
+
+      <button class="arrow right" id="nextBtn">›</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

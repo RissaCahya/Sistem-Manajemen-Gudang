@@ -1,14 +1,3 @@
-<?php
-include "../koneksi.php";
-
-// EDIT
-$edit = null;
-if (isset($_GET['edit'])) {
-    $id = 2024081002;
-    $nim = $koneksi->query("SELECT nim FROM biodata WHERE id=$id")->fetch_assoc();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>

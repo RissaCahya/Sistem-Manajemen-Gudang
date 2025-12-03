@@ -61,6 +61,8 @@ body {
   align-items: center;
   gap: 20px;
   margin-top: 50px;
+  position: relative; /* pastikan arrow di atas carousel */
+  z-index: 1;
 }
 
 /* ARROW */
@@ -77,6 +79,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: 0.2s;
+  z-index: 2; /* pastikan tombol di atas card */
 }
 
 .arrow:hover {
@@ -90,7 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: max-content;
+  width: 650px;
   height: 320px;
 }
 
@@ -103,6 +106,7 @@ body {
   transform: scale(0.8);
   pointer-events: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 .card.left {
@@ -119,6 +123,7 @@ body {
   transform: translateX(0) scale(1.2);
   opacity: 1;
   pointer-events: auto;
+  z-index: 3;
 }
 
 /* AVATAR */
@@ -138,7 +143,23 @@ body {
 
 /* RESPONSIVE */
 @media screen and (max-width: 500px) {
-  .card.left { transform: translateX(-180px) scale(0.8); }
-  .card.right { transform: translateX(180px) scale(0.8); }
+  .carousel {
+    width: 90%;
+    height: 260px;
+  }
+
+  .card.left { transform: translateX(-150px) scale(0.8); }
+  .card.right { transform: translateX(150px) scale(0.8); }
   .card.active { transform: translateX(0) scale(1.05); }
+
+  .arrow {
+    width: 45px;
+    height: 45px;
+    font-size: 32px;
+  }
+
+  .avatar {
+    max-width: 160px;
+    height: 200px;
+  }
 }

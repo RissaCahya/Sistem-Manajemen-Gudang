@@ -1,5 +1,6 @@
+
 <?php
-include "../koneksi.php";?>
+include "koneksi.php";?>
 
 <!DOCTYPE html>
 <html lang="id">

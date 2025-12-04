@@ -1,3 +1,4 @@
+
 <?php
 include "koneksi.php";?>
 
@@ -9,8 +10,8 @@ include "koneksi.php";?>
   <title>Team Neon — Interactive Profiles</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
   <!-- HEADER -->
   <header class="header">
     <div class="left-header">

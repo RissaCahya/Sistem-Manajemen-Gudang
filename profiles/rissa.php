@@ -1,5 +1,6 @@
+
 <?php
-include "../koneksi.php";?>
+include "koneksi.php";?>
 
 <!DOCTYPE html>
 <html lang="id">
@@ -206,7 +207,7 @@ include "../koneksi.php";?>
             <div class="wadah-footer">
                 <div class="footer-left">
                     <p>Twitter: -</p>
-                    <p>Tiktok: @jvxriss</p>
+                    <p>FB: -</p>
                     <p>Instagram: @rissachyp</p>
                 </div>
                 <div class="footer-center">

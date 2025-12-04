@@ -11,7 +11,6 @@ body {
     color: #333;
     min-height: 100vh;
     position: relative;
-    background: url('assets/bgWeb.jpg') no-repeat center center fixed;
 }
 
 .container {
@@ -616,7 +615,7 @@ header {
 
 /* tombol admin */
 .right-header .admin-btn {
-    background: #222;
+    background: #693510;
     padding: 8px 16px;
     border-radius: 6px;
     color: white;
@@ -626,9 +625,4 @@ header {
 
 .right-header .admin-btn:hover {
     background: #444;
-}
-
-body {
-    background: url('../assets/bgWebsite.jpg') no-repeat center center fixed;
-    background-size: cover;
 }

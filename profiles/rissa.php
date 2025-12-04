@@ -9,7 +9,7 @@ include "../koneksi.php";?>
     <link rel="stylesheet" href="../profile.css">
     <title>Profile Rissa Cahya Puspita</title>
 </head>
-<body>
+<body style="background: url('http://localhost/Sistem-Manajemen-Gudang/assets/bgWeb.jpg') no-repeat center center fixed; background-size: cover;">
     <div class="container">
         <header>
             <div class="left-header">

@@ -239,6 +239,8 @@ body {
     color: #222;
     font-size: 16px;
     line-height: 1.4;
+    background: url('http://localhost/Sistem-Manajemen-Gudang/assets/bgWeb.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header {
@@ -395,6 +397,7 @@ select {
 }
 .alert-success { background: #e6f7ea; color: #0b6b26; }
 .alert-error { background: #ffe6e6; color: #b70000; }
+
 
 /* responsive */
 @media (max-width: 920px) {
@@ -614,6 +617,5 @@ select {
     </aside>
 
 </div> <!-- container -->
-
 </body>
 </html>

@@ -48,7 +48,7 @@ include "../koneksi.php";?>
                         <tr>
                             <td>NIM</td>
                             <td>:</td>
-                            <td><?php $nim ?></td>
+                            <td>2024081002</td>
                         </tr>
                         <tr>
                             <td>Nama Lengkap</td>
@@ -63,12 +63,12 @@ include "../koneksi.php";?>
                         <tr>
                             <td>Tanggal Lahir</td>
                             <td>:</td>
-                            <td>...</td>
+                            <td>09 Juni 2006</td>
                         </tr>
                         <tr>
                             <td>Tempat Lahir</td>
                             <td>:</td>
-                            <td>Solo</td>
+                            <td>Jakarta</td>
                         </tr>
                         <tr>
                             <td>Jenis Kelamin</td>
@@ -87,16 +87,16 @@ include "../koneksi.php";?>
                             <p>S1 Sistem Informasi</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SMA Negeri 3 Kota Tangerang Selatan</h3>
+                            <h3>SMA Negeri Jumapolo</h3>
                             <p class="periode">2021 - 2024</p>
-                            <p>IPS</p>
+                            <p>IPA</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SMP Negeri 17 Kota Tangerang Selatan</h3>
+                            <h3>SMP Negeri 2 Jatipuro</h3>
                             <p class="periode">2018 - 2021</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SD Negeri Ciputat 07</h3>
+                            <h3>SD Negeri 13 Jatiwarno</h3>
                             <p class="periode">2012 - 2018</p>
                         </div>
                     </div>

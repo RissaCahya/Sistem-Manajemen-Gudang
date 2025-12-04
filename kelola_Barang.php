@@ -615,5 +615,13 @@ select {
 
 </div> <!-- container -->
 
+        <footer>
+            <div class="wadah-footer">
+                <div class="footer-center">
+                    <p>&copy; 2025 Sistem Manajemen Gudang Roti. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
 </body>
 </html>

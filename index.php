@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 533874e (Resolve merge conflict)
 <?php
 include "koneksi.php";?>
 
@@ -10,8 +13,13 @@ include "koneksi.php";?>
   <title>Team Neon — Interactive Profiles</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<<<<<<< HEAD
 <body>
 
+=======
+
+<body>
+>>>>>>> 533874e (Resolve merge conflict)
   <!-- HEADER -->
   <header class="header">
     <div class="left-header">

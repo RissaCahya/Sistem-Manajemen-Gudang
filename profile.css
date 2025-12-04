@@ -11,6 +11,7 @@ body {
     color: #333;
     min-height: 100vh;
     position: relative;
+    background: url('assets/bgWeb.jpg') no-repeat center center fixed;
 }
 
 .container {

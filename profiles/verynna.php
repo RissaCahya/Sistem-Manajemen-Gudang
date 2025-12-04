@@ -126,20 +126,14 @@ if (isset($_GET['edit'])) {
                             <h3>Prodi Gathering Sistem Informasi 2025</h3>
                             <p class="periode">Universitas Pembangunan Jaya</p>
                             <ul>
-                                <li>Menjadi Sekretaris Prodi Gathering Sistem Informasi 2025</li>
-                                <li>Mencatat perkembangan setiap divisi</li>
-                                <li>Membuat proposal</li>
-                                <li>Membuat surat menyurat</li>
-                                <li>Membuat surat kerja</li>
+                                <li>Menjadi MC pada acara Prodi Gathering Sistem Informasi 2025</li>
                             </ul>
                         </div>
                         <div class="timeline-item">
                             <h3>Badan Pengurus Harian UKM</h3>
                             <p class="periode">Universitas Pembangunan Jaya</p>
                             <ul>
-                                <li>Menjadi Bendahara salah satu UKM Universitas Pembangunan Jaya</li>
-                                <li>Mencatat kas per bulan</li>
-                                <li>Mencatat pengeluaran dan pemasukan</li>
+                                <li>Menjadi Wakil Ketua salah satu UKM Universitas Pembangunan Jaya</li>
                             </ul>
                         </div>
                     </div>
@@ -198,16 +192,16 @@ if (isset($_GET['edit'])) {
                 
                 <h3>Hobi</h3>
                 <ul>
-                    <li>Renang</li>
+                    <li>Menari</li>
+                    <li>Menyanyi</li>
                     <li>Nonton Film</li>
-                    <li>Traveling</li>
                     <li>Main Game</li>
                 </ul>
 
                 <h3>Kontak</h3>
-                <p>📧 cahyapuspita06@email.com</p>
-                <p>📱 +62 852-8189-5564</p>
-                <p>📍 Jl. Haji Rean Graha Indah 2 Pamulang Blok E2/1</p>
+                <p>📧 verynnaputri@gmail.com</p>
+                <p>📱 +62 857-7328-8294</p>
+                <p>📍 Jl. Mendut Raya, Benda Baru, Pamulang</p>
             </aside>
         </main>
 
@@ -215,14 +209,14 @@ if (isset($_GET['edit'])) {
             <div class="wadah-footer">
                 <div class="footer-left">
                     <p>Twitter: -</p>
-                    <p>FB: -</p>
-                    <p>Instagram: @rissachyp</p>
+                    <p>Tiktok: @verynnaptrz</p>
+                    <p>Instagram: @verynnaptrz</p>
                 </div>
                 <div class="footer-center">
-                    <p>&copy; 2025 Rissa Cahya Puspita. All Rights Reserved.</p>
+                    <p>&copy; 2025 Verynna Putri Zahra. All Rights Reserved.</p>
                 </div>
                 <div class="footer-right">
-                    <p>rissachy | kita jalanin dulu aja ya.</p>
+                    <p>veptrz | jaya jaya jaya.</p>
                 </div>
             </div>
         </footer>

@@ -1,23 +1,26 @@
+<?php
+include "koneksi.php";?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../profile.css">
-    <title>Profile Rissa Cahya Puspita</title>
+    <title>Profile Citra Dewi Cahya Nanda Zulfani</title>
 </head>
 <body>
     <div class="container">
-        <header>
+         <header>
             <div class="left-header">
-                <img id="fotoku" src="../assets/rissa.jpg" alt="Foto Rissa">
-                <span id="nama">Rissa Cahya Puspita</span>
+                <img id="fotoku" src="../assets/citra.jpg" alt="Foto Citra">
+                <span id="nama">Citra Dewi Cahya Nanda Zulfani</span>
 
         <!-- Dropdown nama -->
                 <ul class="dropdown-name">
-                    <li><a href="verynna.html">Verynna</a></li>
-                    <li><a href="citra.html">Citra</a></li>
-                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="rissa.php">Rissa</a></li>
+                    <li><a href="verynna.php">Verynna</a></li>
+                    <li><a href="../index.php">Dashboard</a></li>
                 </ul>
             </div>
 
@@ -45,12 +48,12 @@
                         <tr>
                             <td>NIM</td>
                             <td>:</td>
-                            <td>2024081025</td>
+                            <td><?php $nim ?></td>
                         </tr>
                         <tr>
                             <td>Nama Lengkap</td>
                             <td>:</td>
-                            <td>Rissa Cahya Puspita</td>
+                            <td>Citra Dewi Cahya Nanda Zulfani</td>
                         </tr>
                         <tr>
                             <td>Agama</td>
@@ -60,7 +63,7 @@
                         <tr>
                             <td>Tanggal Lahir</td>
                             <td>:</td>
-                            <td>13 April 2006</td>
+                            <td>...</td>
                         </tr>
                         <tr>
                             <td>Tempat Lahir</td>

@@ -1,3 +1,6 @@
+<?php
+include "koneksi.php";?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -6,8 +9,8 @@
   <title>Team Neon — Interactive Profiles</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
   <!-- HEADER -->
   <header class="header">
     <div class="left-header">
@@ -26,17 +29,17 @@
       <button class="arrow left" id="prevBtn">‹</button>
 
       <div class="carousel">
-        <div class="card" data-link="profiles/citra.html">
+        <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/citra.php">
           <img src="assets/citra.jpg" class="avatar">
           <h3>Citra</h3>
         </div>
 
-        <div class="card" data-link="profiles/verynna.html">
+        <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/verynna.php">
           <img src="assets/verynna.jpg" class="avatar">
           <h3>Verynna</h3>
         </div>
 
-        <div class="card" data-link="profiles/rissa.html">
+        <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/rissa.php">
           <img src="assets/rissa.jpg" class="avatar">
           <h3>Rissa</h3>
         </div>

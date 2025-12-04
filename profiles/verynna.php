@@ -1,23 +1,26 @@
+<?php
+include "koneksi.php";?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../profile.css">
-    <title>Profile Citra Dewi Cahya Nanda Zulfani</title>
+    <title>Profile Verynna Putri Zahra</title>
 </head>
 <body>
     <div class="container">
-         <header>
+        <header>
             <div class="left-header">
-                <img id="fotoku" src="../assets/citra.jpg" alt="Foto Citra">
-                <span id="nama">Citra Dewi Cahya Nanda Zulfani</span>
+                <img id="fotoku" src="../assets/verynna.jpg" alt="Foto Verynna">
+                <span id="nama">Verynna Putri Zahra</span>
 
         <!-- Dropdown nama -->
                 <ul class="dropdown-name">
-                    <li><a href="rissa.html">Rissa</a></li>
-                    <li><a href="verynna.html">Verynna</a></li>
-                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="rissa.php">Rissa</a></li>
+                    <li><a href="citra.php">Citra</a></li>
+                    <li><a href="../index.php">Dashboard</a></li>
                 </ul>
             </div>
 
@@ -26,6 +29,7 @@
                 <a href="http://localhost/Sistem-Manajemen-Gudang/kelola_Barang.php" class="admin-btn">Admin</a>
             </div>
         </header>
+
 
         <main>
             <nav>
@@ -45,12 +49,12 @@
                         <tr>
                             <td>NIM</td>
                             <td>:</td>
-                            <td><?php $nim ?></td>
+                            <td>2024081025\2</td>
                         </tr>
                         <tr>
                             <td>Nama Lengkap</td>
                             <td>:</td>
-                            <td>Citra Dewi Cahya Nanda Zulfani</td>
+                            <td>Verynna Putri Zahra</td>
                         </tr>
                         <tr>
                             <td>Agama</td>
@@ -60,12 +64,12 @@
                         <tr>
                             <td>Tanggal Lahir</td>
                             <td>:</td>
-                            <td>...</td>
+                            <td>19 Juni 2006</td>
                         </tr>
                         <tr>
                             <td>Tempat Lahir</td>
                             <td>:</td>
-                            <td>Solo</td>
+                            <td>Tangerang</td>
                         </tr>
                         <tr>
                             <td>Jenis Kelamin</td>
@@ -84,16 +88,16 @@
                             <p>S1 Sistem Informasi</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SMA Negeri 3 Kota Tangerang Selatan</h3>
+                            <h3>SMA Waskito</h3>
                             <p class="periode">2021 - 2024</p>
-                            <p>IPS</p>
+                            <p>IPA</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SMP Negeri 17 Kota Tangerang Selatan</h3>
+                            <h3>SMP Negeri 12 Tangerang Selatan</h3>
                             <p class="periode">2018 - 2021</p>
                         </div>
                         <div class="timeline-item">
-                            <h3>SD Negeri Ciputat 07</h3>
+                            <h3>SD Negeri 02 Pondok Aren</h3>
                             <p class="periode">2012 - 2018</p>
                         </div>
                     </div>
@@ -114,20 +118,14 @@
                             <h3>Prodi Gathering Sistem Informasi 2025</h3>
                             <p class="periode">Universitas Pembangunan Jaya</p>
                             <ul>
-                                <li>Menjadi Sekretaris Prodi Gathering Sistem Informasi 2025</li>
-                                <li>Mencatat perkembangan setiap divisi</li>
-                                <li>Membuat proposal</li>
-                                <li>Membuat surat menyurat</li>
-                                <li>Membuat surat kerja</li>
+                                <li>Menjadi MC pada acara Prodi Gathering Sistem Informasi 2025</li>
                             </ul>
                         </div>
                         <div class="timeline-item">
                             <h3>Badan Pengurus Harian UKM</h3>
                             <p class="periode">Universitas Pembangunan Jaya</p>
                             <ul>
-                                <li>Menjadi Bendahara salah satu UKM Universitas Pembangunan Jaya</li>
-                                <li>Mencatat kas per bulan</li>
-                                <li>Mencatat pengeluaran dan pemasukan</li>
+                                <li>Menjadi Wakil Ketua salah satu UKM Universitas Pembangunan Jaya</li>
                             </ul>
                         </div>
                     </div>
@@ -186,16 +184,16 @@
                 
                 <h3>Hobi</h3>
                 <ul>
-                    <li>Renang</li>
+                    <li>Menari</li>
+                    <li>Menyanyi</li>
                     <li>Nonton Film</li>
-                    <li>Traveling</li>
                     <li>Main Game</li>
                 </ul>
 
                 <h3>Kontak</h3>
-                <p>📧 cahyapuspita06@email.com</p>
-                <p>📱 +62 852-8189-5564</p>
-                <p>📍 Jl. Haji Rean Graha Indah 2 Pamulang Blok E2/1</p>
+                <p>📧 verynnaputri@gmail.com</p>
+                <p>📱 +62 857-7328-8294</p>
+                <p>📍 Jl. Mendut Raya, Benda Baru, Pamulang</p>
             </aside>
         </main>
 
@@ -203,14 +201,14 @@
             <div class="wadah-footer">
                 <div class="footer-left">
                     <p>Twitter: -</p>
-                    <p>FB: -</p>
-                    <p>Instagram: @rissachyp</p>
+                    <p>Tiktok: @verynnaptrz</p>
+                    <p>Instagram: @verynnaptrz</p>
                 </div>
                 <div class="footer-center">
-                    <p>&copy; 2025 Rissa Cahya Puspita. All Rights Reserved.</p>
+                    <p>&copy; 2025 Verynna Putri Zahra. All Rights Reserved.</p>
                 </div>
                 <div class="footer-right">
-                    <p>rissachy | kita jalanin dulu aja ya.</p>
+                    <p>veptrz | jaya jaya jaya.</p>
                 </div>
             </div>
         </footer>

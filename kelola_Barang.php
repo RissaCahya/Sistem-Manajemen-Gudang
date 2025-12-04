@@ -406,7 +406,7 @@ select {
 <body>
 
 <header class="header">
-    <a href="index.html" class="btn-kembali"> ◀ Kembali ke Beranda</a>
+    <a href="index.php" class="btn-kembali"> ◀ Kembali ke Beranda</a>
     <div>
         <h1>Admin - Kelola Barang</h1>
         <small>Tambah barang / Barang masuk / Barang keluar</small>

@@ -626,3 +626,8 @@ header {
 .right-header .admin-btn:hover {
     background: #444;
 }
+
+body {
+    background: url('../assets/bgWebsite.jpg') no-repeat center center fixed;
+    background-size: cover;
+}

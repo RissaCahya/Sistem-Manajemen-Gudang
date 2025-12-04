@@ -30,17 +30,17 @@ include "koneksi.php";?>
 
       <div class="carousel">
         <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/citra.php">
-          <img src="assets/citra.jpg" class="avatar">
+          <img src="assets/foto_citra.jpeg" class="avatar">
           <h3>Citra</h3>
         </div>
 
         <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/verynna.php">
-          <img src="assets/verynna.jpg" class="avatar">
+          <img src="assets/foto_verynna.jpeg" class="avatar">
           <h3>Verynna</h3>
         </div>
 
         <div class="card" data-link="http://localhost/Sistem-Manajemen-Gudang/profiles/rissa.php">
-          <img src="assets/rissa.jpg" class="avatar">
+          <img src="assets/foto_rissa.jpeg" class="avatar">
           <h3>Rissa</h3>
         </div>
       </div>

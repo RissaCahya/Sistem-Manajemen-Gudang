@@ -281,6 +281,32 @@ body {
     gap: 22px;
 }
 
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wadah-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
 /* main column */
 .main {
     display: flex;
@@ -617,5 +643,14 @@ select {
     </aside>
 
 </div> <!-- container -->
+
+        <footer>
+            <div class="wadah-footer">
+                <div class="footer-center">
+                    <p>&copy; 2025 Sistem Manajemen Gudang Roti. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
 </body>
 </html>

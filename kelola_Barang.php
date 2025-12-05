@@ -577,7 +577,7 @@ select {
 
                 <div class="row">
                     <button class="btn btn-warning" name="update" type="submit">Update</button>
-                    <a class="btn btn-secondary" href="admin_kelola_barang.php" style="text-decoration:none;color:white;">Batal</a>
+                    <a class="btn btn-secondary" href="kelola_Barang.php" style="text-decoration:none;color:white;">Batal</a>
                 </div>
             </form>
         </div>

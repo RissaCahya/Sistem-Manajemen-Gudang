@@ -13,7 +13,7 @@ include "../koneksi.php";?>
     <div class="container">
         <header>
             <div class="left-header">
-                <img id="fotoku" src="../assets/verynna.jpg" alt="Foto Verynna">
+                <img id="fotoku" src="http://localhost/Sistem-Manajemen-Gudang/assets/foto_Verynna.jpeg" alt="Foto Verynna">
                 <span id="nama">Verynna Putri Zahra</span>
 
         <!-- Dropdown nama -->

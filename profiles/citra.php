@@ -13,7 +13,7 @@ include "../koneksi.php";?>
     <div class="container">
          <header>
             <div class="left-header">
-                <img id="fotoku" src="../assets/citra.jpg" alt="Foto Citra">
+                <img id="fotoku" src="http://localhost/Sistem-Manajemen-Gudang/assets/foto_citra.jpeg" alt="Foto Citra">
                 <span id="nama">Citra Dewi Cahya Nanda Zulfani</span>
 
         <!-- Dropdown nama -->
